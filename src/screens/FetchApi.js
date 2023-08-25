@@ -8,7 +8,6 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const FetchApi = () => {
-
   console.log("fetch screen")
 const Dispatch=useDispatch()
 const ApiData= useSelector((state)=>state?.FetchApi?.data)
